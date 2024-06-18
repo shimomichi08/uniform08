@@ -1,0 +1,66 @@
+<%@page contentType="text/html; charset=UTF-8"%>
+<html>
+<head>
+	<title>受注状況詳細</title>
+</head>
+<body>
+	<h2>受注状況詳細</h2>
+	<table>
+		<tr>
+			<td>受注番号</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>顧客氏名</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>顧客住所</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>顧客Email</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>購入商品</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>個数</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>サイズ</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>合計金額</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>発注日</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>入金状況</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>発送状況</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>備考</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><a href="<%=request.getContextPath() %>/view/admin/currentStatus.jsp">更新</a></td>
+		</tr>
+		<tr>
+		<!-- メニューへのリンク追加しましたby金村 -->
+			<td><a href="<%=request.getContextPath() %>/view/admin/orderList.jsp">一覧へ</a></td>
+		</tr>
+	</table>
+</body>
+</html>
